@@ -89,29 +89,27 @@ star_box(5,4)
  
 #10. Implement a point class that holds x and y information for a point in space. Note that I am not asking you to plot that line.
 class new_pts:
-    def__init__(self,x,y):
+    def __init__(self,x,y):
      self.x=x, self.y=y
      
 
 #11. Write a distance method that calculates the distance between two points in space.
 from math import sqrt
-class new_pts:
-    def__init__(self,x,y):
+class Point:
+    def __init__(self,x,y):
      self.x=x, self.y=y
-     return(self.x, self.y)
-
+     
 #where point 1 is p1 and point 2 is p2     
-    def distance(p1, p2):
-     dif=sqrt(((pt1[0]-pt2[0])**2)+((pt1[1]-pt2[1])**2))
-     return(dif)
+    def Distance(Point2):
+        dif= sqrt(((self.x-Point2.x)**2)+((self.y-Point2.y)**2))
+        print(dif)
+
 
 # 12. Implement a line class that takes two point objects and makes a line between them. Note that I am not asking you to plot that line.
 class new_line:
-    def__init__(self, pt1, pt2):
-     self.pt1 = Point(x1,y1)
-     self.pt2 = Point(x2,y2)
-     #draw the line betweent he two points. Not sure how to say this in python
-     class(output = "line")
-     return(output)
+    def __init__(self, pt1, pt2):
+     self.pt1 = Point(pt1.x, pt1.y1)
+     self.pt2 = Point(pt2.x,pt2.y)
+     
 
 
